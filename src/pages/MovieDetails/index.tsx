@@ -49,7 +49,7 @@ const MovieDetails = () => {
                                     <div className="runs" style={{
                                         background: `conic-gradient(green ${Math.round(details.vote_average * 10) * 3.59}deg, black  0deg)`
                                     }}>
-                                        <h5>{Math.round(details.vote_average * 10)}%</h5>
+                                        <h5>{Math.round(details.vote_average * 10)}<sup>%</sup></h5>
                                     </div>
                                     <h1 className="text-xl ml-4">Рейтинг</h1>
                                 </div>
