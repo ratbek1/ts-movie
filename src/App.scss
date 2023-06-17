@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.best::-webkit-scrollbar {
+  background: #01e3;
+  border-radius: 15px;
+}
+
+.best::-webkit-scrollbar-thumb {
+  background-color: #01e;
+  border-radius: 15px;
+}
+
+.runs {
+  background: black;
+  font-size: 24px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:before {
+    content: '';
+    width: 90%;
+    height: 90%;
+    z-index: 1;
+    position: absolute;
+    background: #000;
+    border-radius: 50%;
+  }
+  h5 {
+    position: absolute;
+    z-index: 2;
+  }
+}
+
