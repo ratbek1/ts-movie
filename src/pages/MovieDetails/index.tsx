@@ -59,7 +59,6 @@ const MovieDetails = () => {
                         </div>
                     </div>
                 </div>
-
                 <Actors MovieId={MovieId}/>
                 <Trailer MovieId={MovieId}/>
             </div>

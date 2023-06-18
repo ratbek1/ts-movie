@@ -13,7 +13,7 @@ const SearchMovie = () => {
         dispatch(fetchingSearch(API_KEY, MovieName))
     }, [MovieName])
     return (
-        <div className="bg-black">
+        <div className="bg-[#001e3c]">
             <div className="container flex flex-wrap gap-7 py-20">
                 {
                     search.map(el => (
